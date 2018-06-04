@@ -90,9 +90,10 @@ ORDER BY total_hours DESC <br>
 LIMIT 1;
 
 **Result:**
-total_hours | name
------------- | -------------
-11 | Kuhic-Bartoletti
+
+| total_hours | name |
+| ------------ | ------------- |
+| 11 | Kuhic-Bartoletti |
 <br>
 
 ### **List all client names with their project names (multiple rows for one client is fine). Make sure that clients still show up even if they have no projects.**
@@ -126,9 +127,10 @@ GROUP BY developers.id<br>
 HAVING count_comment >= 5;<br>
 
 **Result:**
-count_comment | id | name 
------------- | ------------- | ------------- 
-5 | 45 | Joelle Hermann
+
+| count_comment | id | name |
+| ------------ | ------------- | ------------- |
+| 5 | 45 | Joelle Hermann |
 <br>
 
 ### **Find the developer who worked the fewest hours in January of 2015.**
@@ -144,9 +146,10 @@ ORDER BY work_hours ASC<br>
 LIMIT 1;<br>
 
 **Result:**
-work_hours | id | name 
------------- | ------------- | ------------- 
-0 | 7 | Ms. Tremayne Kuhn
+
+| work_hours | id | name |
+| ------------ | ------------- | ------------- |
+| 0 | 7 | Ms. Tremayne Kuhn |
 <br>
 
 
