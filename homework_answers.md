@@ -24,9 +24,9 @@ SELECT MAX(joined_on), name<br>
 FROM developers;<br>
 
 **Result:**<br>
-MAX(joined_on) | name <br>
------------- | ------------- <br>
-2015-07-10 | Dr. Danielle McLaughlin <br>
+| MAX(joined_on) | name |
+| ------------ | ------------- |
+| 2015-07-10 | Dr. Danielle McLaughlin |
 <br>
 
 ### **Find the number of projects for each client.**
